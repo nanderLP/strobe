@@ -1,0 +1,22 @@
+.spinning-wheel {
+    width: 200px;
+    height: 200px;
+    background-image: var(--image);
+    background-size: cover;
+    will-change: transform;
+    transition: transform 0.5s ease-out;
+  }
+
+  body {
+    height: 100dvh;
+    display: grid;
+    place-items: center;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    place-items: center;
+  }
